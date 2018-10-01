@@ -51,6 +51,6 @@ legend("topright", pch="-", col = c("blue","red","green"), legend = c("Sub_meter
 
 
 ## Copy to PNG File
-dev.copy(png, file = "plot3.png")
+dev.copy(png, file = "plot3.png", width = 480, height = 480)
 dev.off()
 
