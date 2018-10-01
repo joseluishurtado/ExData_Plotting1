@@ -44,7 +44,7 @@ plot(x1$Datetime,x1$Global_active_power, type="l", xlab="",ylab="Global Active P
 
 
 ## Copy to PNG File
-dev.copy(png, file = "plot2.png")
+dev.copy(png, file = "plot2.png", width = 480, height = 480)
 dev.off()
 
 
