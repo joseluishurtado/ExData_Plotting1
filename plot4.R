@@ -59,6 +59,6 @@ plot(x1$Datetime,x1$Global_reactive_power, type="l", xlab="datetime",ylab="Globa
 
 
 ## Copy to PNG File
-dev.copy(png, file = "plot4.png")
+dev.copy(png, file = "plot4.png", width = 480, height = 480)
 dev.off()
 
